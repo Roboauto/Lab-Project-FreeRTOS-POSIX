@@ -33,7 +33,7 @@
 
 /* FreeRTOS+POSIX includes. */
 #include "FreeRTOS_POSIX.h"
-#include "FreeRTOS_POSIX/errno.h"
+#include <sys/errno.h>
 #include "FreeRTOS_POSIX/pthread.h"
 #include "FreeRTOS_POSIX/signal.h"
 #include "FreeRTOS_POSIX/time.h"
